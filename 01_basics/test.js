@@ -1,1 +1,1 @@
-console.log("JavaScript")
+console.group("JavaScript")
