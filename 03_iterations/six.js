@@ -1,4 +1,5 @@
 //   Method different but result same
+//filter mtlb jo true hinga vo hi pass honga 
 
 const myNums = [1,2,3,4,5,6,7,8]
 
