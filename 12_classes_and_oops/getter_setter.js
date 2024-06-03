@@ -1,3 +1,5 @@
+// 95% yeah method use hoti hai baki properties_get_set wali method use hoti hai. 
+
 class user{
     constructor(email, password){
         this.email = email;
