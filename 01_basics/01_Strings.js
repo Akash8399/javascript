@@ -2,6 +2,7 @@ const name = " Rax"
 const value = 70
 
 //console.log(name + " and roll no. " + value );    Basic Tarika
+//console.table([name,value])
 
 console.log(`Hello, my name is ${name} and my roll no. is ${value}`); // Advance tarika 
 
