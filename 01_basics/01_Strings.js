@@ -25,6 +25,6 @@ console.log(newStringOne.trim())
 
 const url = "http://www.hitesh.com/hitesh%20chaudhary"
 console.log(url.replace('%20', '-'))
-console.log(url.includes('Akash'))  // kyua Akash url me hai 
+console.log(url.includes('Akash'))  // kya Akash url me include hai. Output hai : False
 console.log(gameName.split('-'))
 console.log(gameName.split(' ')) // bs check kr rha tha kya aata hai 
