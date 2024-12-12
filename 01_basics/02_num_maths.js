@@ -5,8 +5,8 @@ const balance = new Number(100)
 //console.log(balance);
 
 //console.log(balance.toString().length);
-//console.log(balance.toFixed(3));
-//console.log(balance.toFixed(2));
+//console.log(balance.toFixed(3)); Output: 100.000
+//console.log(balance.toFixed(2)); Output: 100.00
 
 const otherNumber = 123.8965
 //console.log(otherNumber.toPrecision(3));
