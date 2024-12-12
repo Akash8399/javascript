@@ -9,9 +9,9 @@ const balance = new Number(100)
 //console.log(balance.toFixed(2)); Output: 100.00
 
 const otherNumber = 123.8965
-//console.log(otherNumber.toPrecision(3));
-//console.log(otherNumber.toPrecision(2));
-//console.log(otherNumber.toPrecision(1));
+//console.log(otherNumber.toPrecision(3)); Output: 124
+//console.log(otherNumber.toPrecision(2)); Output: 1.2e+2
+//console.log(otherNumber.toPrecision(1)); Output: 1e+2
 
 const hundreds = 1000000
 //console.log(hundreds.toLocaleString());   //  US style output
