@@ -13,7 +13,7 @@ const Actors = [...hero,...heroine] // Spread Method 3
 //console.log(Actors);
 
 const another_Array = [1,2,3,[4,5,6],7,[6,7,[4,5]]]
-const real_another_Array = another_Array.flat(Infinity)
+const real_another_Array = another_Array.flat(Infinity)// Convert in 1 Single array, range mtlb kitne array convert krna hai infinite
 //console.log(real_another_Array);
 
 //console.log(Array.isArray("Hitesh"))
