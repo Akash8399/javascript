@@ -23,10 +23,10 @@ const newArr =  Arr.join()
 //console.log("A " + Arr);
 
 const myn1 = Arr.slice(1,3)
-//console.log(myn1);
+//console.log(myn1); // Output: 1,2
 //console.log("B " + Arr);
 
 const myn2 = Arr.splice(1,3)  // Note: Splice me Array ko hi manipulate kr deta hai 
 //console.log("C " + Arr);
-//console.log(myn2);
+//console.log(myn2); //Output : 1,2,3
 
