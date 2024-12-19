@@ -10,8 +10,8 @@ for (const greet of greeting){
     //console.log(greet);
 }
 
-//  Maps
-
+//  Maps 
+// Note: map me ForIn loop se nhi hota hai 
 const map = new Map()
 map.set("IN", "India")
 map.set("Np", "Nepal")
