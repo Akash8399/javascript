@@ -28,6 +28,25 @@ console.log(Object.values(tenderUser)); // print Values of tenderUser
 console.log(Object.entries(tenderUser)); // [Key,Value] -> is type me output aayenga
 console.log(tenderUser.hasOwnProperty('isLoggedIn'));
 
+/* Object Destructor */
+
+const course = {
+    courseName: "Javascript",
+    price : 299,
+    courseInstructor: "hitesh",
+}
+const {courseName} = course
+console.log(courseName);  // Output : "Javascript"
+
+// if agr key change krna hai to
+
+const {courseName : programming_language} = course // is se main object me koi changes nhi hta
+console.log(programming_language); // Output : "Javascript
+
+// jaise key ko print kr ke dekhonge, main me key vo hi aayengi, koi changes nhi honga
+console.log(Object.keys(course));
+
+
 
 
 
