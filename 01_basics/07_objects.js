@@ -23,9 +23,9 @@ const obj3 = {...obj1, ...obj2} //  Rest operator
 //console.log(obj3)
 
 console.log(tenderUser);
-console.log(Object.keys(tenderUser));
-console.log(Object.values(tenderUser));
-console.log(Object.entries(tenderUser));
+console.log(Object.keys(tenderUser)); // print key of tenderUser 
+console.log(Object.values(tenderUser)); // print Values of tenderUser
+console.log(Object.entries(tenderUser)); // [Key,Value] -> is type me output aayenga
 console.log(tenderUser.hasOwnProperty('isLoggedIn'));
 
 
